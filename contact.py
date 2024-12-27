@@ -67,4 +67,3 @@ def contshow():
         """
         # Display the styled form using st.markdown with unsafe HTML allowed
         st.markdown(contact_form, unsafe_allow_html=True)
-

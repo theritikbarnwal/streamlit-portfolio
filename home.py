@@ -8,7 +8,7 @@ def homeshow():
     
     with col2:
         # Image with adjusted path and resized width
-        st.image("img/home.jpg", caption="Ritik Barnwal", use_column_width=True, width=150)  # Slightly larger image for better visibility
+        st.image("img/home.jpg", caption="Ritik Barnwal", use_column_width=True)  # Slightly larger image for better visibility
     
     with col1:
         # Introductory text with emphasis on key skills
@@ -19,7 +19,8 @@ def homeshow():
         # Updated section title and description
         st.write("""
         #### My Journey
-        I am currently pursuing a **Bachelor of Computer Applications (BCA)** in **Data Science**. Over the years, I’ve developed a strong interest in using data to solve real-world problems. Here’s a glimpse of what I’ve been working on:
+        I am currently pursuing a **Bachelor of Computer Applications (BCA)** in **Data Science**. Over the years,
+         I’ve developed a strong interest in using data to solve real-world problems. Here’s a glimpse of what I’ve been working on:
         - **Data Cleaning**: Ensuring high-quality, structured data for accurate analysis.
         - **Machine Learning**: Building predictive models to provide actionable insights.
         

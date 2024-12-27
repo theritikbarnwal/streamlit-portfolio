@@ -8,7 +8,7 @@ def homeshow():
     
     with col2:
         # Image with adjusted path and resized width
-        st.image("img/home.jpg", caption="Ritik Barnwal", use_column_width=True)  # Slightly larger image for better visibility
+        st.image("img/home.jpg", caption="Ritik Barnwal", use_container_width=True,width=150)  # Slightly larger image for better visibility
     
     with col1:
         # Introductory text with emphasis on key skills

@@ -7,7 +7,7 @@ def amshow():
     
     
     with col2:
-        st.image("img/about.jpg", caption="Ritik Barnwal", use_container_width=True,width=150)  # Adjusted width for a smaller image
+        st.image("img/about.jpg", caption="Ritik Barnwal", use_container_width=True, width=150)  # Adjusted width for a smaller image
     
     with col1:
         st.write("""

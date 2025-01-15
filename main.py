@@ -3,7 +3,7 @@ import home
 import about
 import contact
 import project
-st.set_page_config(page_icon="img/icon.png  ",page_title="theritikbarnwal",layout="wide")
+st.set_page_config(page_icon="img/icon.png",page_title="theritikbarnwal",layout="wide")
 
 st.sidebar.title("Navigation")
 option = st.sidebar.radio("Explore", ["**Home**","**About**", "**Project**","**Contact**"])

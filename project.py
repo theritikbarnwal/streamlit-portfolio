@@ -31,3 +31,10 @@ def projshow():
     Created a responsive and dynamic website using Streamlit, which showcases my projects and skills.
     """)
     st.write("[View Project](https://www.linkedin.com/posts/theritikbarnwal_powerbi-datavisualization-datascience-activity-7234958481089290243-oXpt?utm_source=share&utm_medium=member_desktop)")
+
+    # Project 5
+    st.subheader("5. Web Scraping-Book Store Web Scrape")
+    st.write("""
+    This project is a web scraper designed to extract book information from books.toscrape site.
+    """)
+    st.write("[View Project](https://github.com/theritikbarnwal/books.toscrape)")
